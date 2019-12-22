@@ -3,15 +3,15 @@ import subprocess as sub
 from selenium import webdriver
 
 def open_python():
-    print("open_bash")
+    
     sub.Popen("python")
 
 def start_edit():
-    print("start_edit")
+    
     sub.Popen("gedit")
 
 def open_google():
-    print("play_sound")
+    
     browser = webdriver.Chrome()
     browser.get("https://www.google.com/search?q=Welcome+To+FEDORA+COMMUNITY")
 
